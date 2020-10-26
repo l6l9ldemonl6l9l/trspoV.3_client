@@ -16,9 +16,9 @@ public class FData {
     private static final List<Integer> sizeEnergy  = Arrays.asList(10, 20, 30, 40, 50 ,60);
     private static final List<Integer> sizeBeauty  = Arrays.asList(10, 20, 30, 40, 50 ,60,70,80,90,100);
     private static final List<Integer> sizeTaste  = Arrays.asList(10, 20, 30, 40, 50 ,60,70,80,90,100);
-    private static final List<Date> datesFood = Arrays.asList(new Date(1212141212121L),new Date(1272121212121L),new Date(1212121222121L));
-    private static final List<Date> datesAnimal = Arrays.asList(new Date(1215121212121L),new Date(1282121212121L),new Date(1212131222121L));
-    private static final List<Date> datesDeity = Arrays.asList(new Date(1262121212121L),new Date(1212191212121L),new Date(1212121252121L));
+    private static final List<Date> datesFood = Arrays.asList(new Date(2020-10-10),new Date(2020-10-11),new Date(2020-10-4));
+    private static final List<Date> datesAnimal = Arrays.asList(new Date(2020-10-10),new Date(2020-10-1),new Date(2020-10-5));
+    private static final List<Date> datesDeity = Arrays.asList(new Date(2020-10-10),new Date(2020-10-2),new Date(2020-10-3));
 
     public static String getName(){return names.get(rand.nextInt(names.size()));}
 

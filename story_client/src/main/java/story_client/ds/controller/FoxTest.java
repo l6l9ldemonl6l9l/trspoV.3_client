@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.Random;
 
 public class FoxTest {
-    private final String endPoint = "http://localhost:8080/api/Fox";
+    private final String endPoint = "http://localhost:8085/fox";
 
     private final Random rand = new Random();
 

@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.Random;
 
 public class CrowTest {
-    private final String endPoint = "http://localhost:8080/api/crow";
+    private final String endPoint = "http://localhost:8082/crow";
 
     private final Random rand = new Random();
 

@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.Random;
 
 public class FoodTest {
-    private final String endPoint = "http://localhost:8080/api/food";
+    private final String endPoint = "http://localhost:8081/food";
 
     private final Random rand = new Random();
 
